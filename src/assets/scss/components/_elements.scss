@@ -1,0 +1,79 @@
+@use '../abstracts' as *;
+
+/*----------------------------
+---------TYPOGRAPHY-----------
+----------------------------*/
+
+/*---- Headings ----*/
+
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6{
+    color: $dark;
+    display: block;
+}
+
+h3{
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+
+h4{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-block-end: .5rem;
+}
+
+
+/*----------------------------
+------------TABLES------------
+----------------------------*/
+
+.table{
+    &.table-sm{
+        thead,tbody{
+            tr{
+                td,th{
+                    &:last-child{
+                        text-align:right
+                    }
+                }
+            }
+        }
+        tbody{
+            tr{
+                td,th{
+                    font-size: .875rem;
+                }
+            }
+        }
+    }
+
+    &.table-hover{
+        tbody{
+            tr{
+                td,th{
+                    -webkit-transition: .2s ease-in-out all;
+                    -o-transition: .2s ease-in-out all;
+                    transition: .2s ease-in-out all;
+                }
+    
+                &:hover{
+                    td,th{
+                        box-shadow: none;
+                        background-color: rgba(0, 158, 227,.1);
+                        //background-color: #e6f6fd;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.list-group{
+    .list-group-item{
+        span{
+            display: block;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@use './abstracts' as *;
+@use 'components';
+@use 'layouts';
+
+:root {--font-size: 1;}
+
+body{
+    background-color: #F6F7F8;
+    font-size: calc(var(--font-size) * 1rem);
+}
+
+a,button,.btn{
+    text-decoration: none;
+    -webkit-transition: .2s ease-in-out all;
+    -o-transition: .2s ease-in-out all;
+    transition: .2s ease-in-out all;
+}

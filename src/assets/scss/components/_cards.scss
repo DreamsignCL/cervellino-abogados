@@ -1,0 +1,64 @@
+@use '../abstracts' as *;
+
+.card{
+    /*Card Web Service*/
+
+    &.card-service{
+        border: none;
+        border-radius: 0;
+
+        -webkit-transition: .2s ease-in-out all;
+        -o-transition: .2s ease-in-out all;
+        transition: .2s ease-in-out all;
+
+        $shadow: rgba(163, 163, 163, 0.2);
+        box-shadow: 0px 0px 8px 0px $shadow;
+        -webkit-box-shadow: 0px 0px 8px 0px $shadow;
+        -moz-box-shadow: 0px 0px 8px 0px $shadow;
+
+        .card-image{
+            height: 200px;
+            background-size:100%;
+            background-position: center center;
+
+            -webkit-transition: .5s ease-in-out all;
+            -o-transition: .5s ease-in-out all;
+            transition: .5s ease-in-out all;
+        }
+
+        .card-body{
+            text-align: center;
+
+            .card-title{
+                font-size: 1.1rem;
+            }
+
+            .card-text{
+                margin-bottom: 2rem;
+            }
+
+            a{
+                display: inline-block;
+                border: 1px solid $gray-500;
+                padding: .5rem 1rem;
+                color: $gray-500;
+
+                &:hover{
+                    background-color: $primary-700;
+                    color: #fff;
+                }
+            }
+        }
+
+        &:hover{
+            $shadow: rgba(104, 104, 104, 0.2);
+            box-shadow: 0px 0px 20px 0px $shadow;
+            -webkit-box-shadow: 0px 0px 20px 0px $shadow;
+            -moz-box-shadow: 0px 0px 20px 0px $shadow;
+
+            .card-image{
+                background-size:120%;
+            }
+        }
+    }
+}

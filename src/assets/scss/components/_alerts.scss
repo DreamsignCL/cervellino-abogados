@@ -1,0 +1,12 @@
+@use '../abstracts' as *;
+
+.alert{
+    padding: .5rem 3rem .5rem 1rem;
+    margin-bottom: 0;
+
+    &.alert-dismissible{
+        .btn-close{
+            padding: .8rem 1rem;
+        }
+    }
+}

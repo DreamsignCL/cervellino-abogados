@@ -1,0 +1,38 @@
+@use '../abstracts' as *;
+
+.rrss-footer{
+    ul{
+        margin: 0 0 1rem 0;
+        padding: 0;
+        text-align: center;
+
+        li{
+            display: inline-block;
+            list-style: none;
+            margin-right: .5rem;
+
+            a{
+                display: block;
+                border: 1px solid $primary-500;
+                font-size: 1.875em;
+                padding: 2px 11px;
+                border-radius: 50%;
+                color: $primary-500;
+
+                &:hover{
+                    background: rgb(147,39,113);
+                    background: linear-gradient(41deg, rgba(147,39,113,1) 0%, rgba(102,45,145,1) 100%);
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@include MQ(MD){
+    .rrss-footer{
+        ul{
+            text-align: left;
+        }
+    }
+}

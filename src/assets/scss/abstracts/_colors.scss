@@ -1,0 +1,16 @@
+//Colors
+
+$primary-500: #2CBCCB;
+$primary-700: #1AA1B3;
+$primary-900: #2D87AD;
+$success-500: #5bba67;
+$dark: #1e1e1e;
+$gray-300:#a1a1a1;
+$gray-500:#6D6D6D;
+
+.bg-primary{background-color: $primary-500 !important;}
+
+.text-bg-primary{
+    background-color: $primary-500;
+    color: #fff;
+}

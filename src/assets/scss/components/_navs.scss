@@ -1,0 +1,86 @@
+@use '../abstracts' as *;
+
+/*---- Main Menu ----*/
+.main-menu{
+    button.trigger-menu{
+        background-color: $primary-700;
+        border: none;
+        color: #fff;
+        padding: .7rem;
+        font-size: .7rem;
+    }
+    
+    nav.main-menu-desktop{
+        ul{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            li{
+                list-style: none;
+                margin-left: 1rem;
+    
+                a{
+                    display: block;
+                    color: $dark;
+                    text-decoration: none;
+    
+                    &:hover,
+                    &:focus,
+                    &.active{
+                        color: $primary-500;
+                    }
+                }
+            }
+        }
+    }
+    
+    .main-menu-mobile{
+        background-color: rgba(0,0,0,.3);
+        transition: all 0.3s ease;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        z-index: 2;
+    
+        .menu-content{
+            background-color: #fff;
+            width: 75%;
+            height: 100vh;
+            padding: 1rem;
+    
+            .close-menu{
+                border: none;
+                background: none;
+                color: $primary-500;
+            }
+    
+            nav{
+                ul{
+                    padding: 0;
+                    margin: 0;
+    
+                    li{
+                        list-style: none;
+    
+                        a{
+                            display: block;
+                            text-decoration: none;
+                            padding: .5rem 0;
+                            color: $dark;
+                            border-bottom: 1px solid #dadada;
+                        }
+                    }
+                }
+            }
+        }
+    
+        &.active{
+            display: block;
+        }
+    }
+}

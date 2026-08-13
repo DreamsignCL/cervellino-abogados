@@ -1,0 +1,161 @@
+@use '../abstracts' as *;
+
+/*--------------------------------
+------------HOME PAGE-------------
+--------------------------------*/
+
+.home-page{
+    section{
+        &.slide{
+            background-image: url('../img/edificios.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h1{
+                text-align: center;
+                color: #fff;
+                font-size: 2.2rem;
+
+                span{
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        &.home-services{
+            display:block;
+            padding: 1rem;
+
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                color: #fff;
+                height: 200px;
+                font-size: 2rem;
+                margin-bottom: 1rem;
+
+                &:first-child{
+                    background-color: $gray-300;
+
+                    &:hover{
+                        background-color: $primary-500;
+                    }
+                }
+
+                &:last-child{
+                    background-color: $primary-700;
+
+                    &:hover{
+                        background-color: $primary-900;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*----------------------------
+---------SINGLE PAGE----------
+----------------------------*/
+.single-page{
+    background-color: #fff;
+
+    section{
+        &.header{
+            padding: 2rem 0;
+            text-align: center;
+
+            h1{
+                font-size: 2rem;
+                margin-bottom: 1.5rem;
+                text-transform: uppercase;
+            }
+        }
+
+        &.image{
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 300px;
+        }
+
+        &.content{
+            padding: 2rem 0;
+            text-align: justify;
+
+            h2{
+                font-size: 1.4rem;
+                margin-bottom: 1.2rem;
+            }
+
+            .services{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .contacts{
+                margin-top: 1rem;
+
+                h3{
+                    font-size: 1.1rem;
+                    margin-bottom: .5rem;
+                }
+
+                a{
+                    color: $dark;
+                }
+
+                svg{
+                    margin-right: .5rem;
+                }
+            }
+        }
+    }
+}
+
+@include MQ(MD){
+    .home-page{
+        section{
+            &.slide{
+                height: 300px;
+
+                h1{
+                    font-size: 2.5rem;
+                }
+            }
+
+            &.home-services{
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+
+                a{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .single-page{
+        section{
+            &.content{
+                .services{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-column-gap: 2rem;
+                    grid-row-gap: 2rem;
+                }
+            }
+        }
+    }
+}
