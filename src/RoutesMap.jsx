@@ -25,6 +25,7 @@ import RedirectWhatsappPage from './pages/RedirectWhatsappPage';
 import CorporateAdvisoryPage from './pages/CorporateAdvisoryPage';
 import AdvisoryInItalyPage from './pages/AdvisoryInItalyPage';
 import PersonalDataProtectionPage from './pages/PersonalDataProtectionPage';
+import LaborLawConsultancyPage from './pages/LaborLawConsultancyPage';
 
 function RoutesMap() {
   useGtagConversion();
@@ -52,6 +53,7 @@ function RoutesMap() {
       <Route path="/asesoria-legal-a-personas-mayores-y-familias" element={<LegalAdviceElderyPage />} />
       <Route path="/asesoria-en-italia" element={<AdvisoryInItalyPage />} />
       <Route path="/compliance-ley-proteccion-de-datos-personales" element={<PersonalDataProtectionPage />} />
+      <Route path="/asesoria-laboral" element={<LaborLawConsultancyPage />} />
       <Route path="/redirect" element={<RedirectWhatsappPage />} />
     </Routes>
   );

@@ -37,7 +37,7 @@ function DubaiConsultingPage() {
                             </p>
 
                              <p>
-                                Asesoramos a inversionistas y empresarios de Emiratos Árabes Unidos que deseen asesoría legal de diverso índole en Chile.
+                                Asesoramos a inversionistas y empresarios de Emiratos Árabes Unidos que deseen asesoría legal de diversa índole en Chile.
                             </p>
 
                             <p>

@@ -20,7 +20,7 @@ function InternationalPrivateLawPage() {
                     <div className="row">
                         <div className="col-12 col-md-6">
                             <p>
-                                Somos expertos en asesorar legalmente en tramitaciones de posesiones efectivas, aperturas de testamentos y judicialmente particiones de herencias. Contamos con amplia experiencia en dichas tramitaciones legales tanto administrativas como judiciales. Tenemos un equipo legal altamente especializado para resolver en el menor plazo posible temas como comunidades hereditarias y/o adjudicaciones de bienes para los herederos legales.
+                                Contamos con amplia experiencia en tramitaciones legales administrativas como judiciales, en derecho de familia y herencias internacionales. Tenemos un equipo legal altamente especializado para resolver en el menor plazo posible temas como comunidades hereditarias y/o adjudicaciones de bienes para los herederos legales.
                             </p>
 
                             <button className="btn btn-outline-primary" type="button" onClick={handleVolver}>Volver</button>

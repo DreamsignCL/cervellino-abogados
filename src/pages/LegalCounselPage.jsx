@@ -19,7 +19,7 @@ function LegalCounselPage() {
                         <h2>GIORGIO CERVELLINO DEL FIERRO</h2>
 
                         <p>
-                            Abogado Asesor de Empresas Nacionales e Internacionales de diversos rubros en Chile, tanto en materias corporativas, laborales, tributarias, inmobiliarias, planificación patrimonial y de protección sucesoria, contratos, cobranza internacional y litigios de diversa índole.
+                            Abogado asesor de empresas nacionales e internacionales de diversos rubros en Chile, tanto en materias corporativas, laborales, tributarias, inmobiliarias, planificación patrimonial y protección sucesoria, contratos, cobranza internacional y litigios de diversa índole de alta complejidad.
                         </p>
 
                         <p>

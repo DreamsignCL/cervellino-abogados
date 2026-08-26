@@ -11,15 +11,25 @@ import Dubai from '../assets/img/dubai.jpg';
 import LegalAdviceEldery from '../assets/img/legal-advice-eldery.jpg';
 import AsesoriaItalia from '../assets/img/bandera-italiana.jpg';
 import DatosPersonales from '../assets/img/datos-personales.jpg';
+import AsesoriaLaboral from '../assets/img/asesoria-laboral.jpg';
 
 function LegalSolutionsPage() {
     const servicesList = [
+        /*
         {
             id: 1,
             img: DerechoInternacionalPrivado,
             title: 'DERECHO INTERNACIONAL PRIVADO',
             detail: 'Asesoramos a personas y familias en materias de sucesiones o herencia en España e Italia',
             link: '/derecho-internacional-privado-negocios-y-litigio-internacional'
+        },
+        */
+       {
+            id: 1,
+            img: AsesoriaLaboral,
+            title: 'ASESORÍA LABORAL',
+            detail: 'Asesoramos en materias de derecho laboral y legislación sobre contrataciones, asesorando a todo tipo de empleadores, del sector privado tanto nacionales como extranjeros',
+            link: '/asesoria-laboral'
         },
         {
             id: 2,
