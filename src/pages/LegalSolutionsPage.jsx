@@ -34,7 +34,7 @@ function LegalSolutionsPage() {
         {
             id: 2,
             img: TramitesHerencia,
-            title: 'ASESORIA LEGAL EN HERENCIA, TESTAMENTOS Y PARTICIONES',
+            title: 'ASESORÍA LEGAL EN HERENCIA, TESTAMENTOS Y PARTICIONES',
             detail: 'Somos expertos en asesorar legalmente en tramitaciones de posesiones efectivas, aperturas de testamentos y judicialmente particiones de herencias.',
             link: '/tramites-por-herencia-sucesiones-testamentos-y-particiones'
         },
@@ -63,8 +63,8 @@ function LegalSolutionsPage() {
         {
             id: 6,
             img: AsesoriaUsa,
-            title: 'ESTRATEGIA LEGAL DE INVERSIÓN, NEGOCIOS O INMIGRACIÓN A ESTADOS UNIDOS',
-            detail: 'Asesoramos a personas y familias en materias de inmigración e inversión en real estate, franquicias, negocios en general',
+            title: 'ASESORÍA LEGAL EN INVERSIÓN Y NEGOCIOS A ESTADOS UNIDOS',
+            detail: 'Acompañamos a personas, familias y empresas en su proceso de inversión, migración o expansión de negocios en EE.UU.',
             link: '/asesoria-en-estados-unidos'
         },
         {

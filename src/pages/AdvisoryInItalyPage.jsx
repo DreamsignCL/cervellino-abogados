@@ -28,6 +28,12 @@ function AdvisoryInItalyPage() {
                             <p>
                                 Asesoramos a Chilenos radicados en Italia que desean asesoría legal de diversa índole en Chile.
                             </p>
+                            <p>
+                                Asesoramos a Italianos que desean asesoría legal de diversa índole en Chile.
+                            </p>
+                            <p>
+                                Asesoramos a Inversionistas y Empresarios Italianos que deseen asesoría legal de diversa índole en Chile.
+                            </p>
 
                             <button className="btn btn-outline-primary" type="button" onClick={handleVolver}>Volver</button>
                         </div>

@@ -13,7 +13,7 @@ function SpainConsultingPage() {
         <main role="main" className="single-page">
             <div className="container">
                 <section className="header">
-                    <h1>ASESORIA EN ESPAÑA</h1>
+                    <h1>ASESORÍA EN ESPAÑA</h1>
                 </section>
 
                 <section className="content">
@@ -33,6 +33,14 @@ function SpainConsultingPage() {
 
                             <p>
                                 Asesoramos a Chilenos radicados en España que desean asesoría legal de diversa índole en Chile.
+                            </p>
+
+                            <p>
+                                Asesoramos a Españoles que desean asesoría legal de diversa índole en Chile.
+                            </p>
+                            
+                            <p>
+                                Asesoramos a Empresas Españolas que desean asesoría legal de diversa índole en Chile.
                             </p>
 
                             <p>

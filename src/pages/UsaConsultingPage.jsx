@@ -15,7 +15,7 @@ function UsaConsultingPage() {
         <main role="main" className="single-page">
             <div className="container">
                 <section className="header">
-                    <h1>Estrategia legal de inversión, negocios o inmigración a Estados Unidos</h1>
+                    <h1>Asesoría legal en inversión y negocios a Estados Unidos</h1>
                 </section>
 
                 <section className="content">
@@ -43,6 +43,7 @@ function UsaConsultingPage() {
                                 <li>Apoyo fiscal, contable y legal en ambas jurisdicciones.</li>
                                 <li>Equipo experto en Florida: abogados, contadores, realtors y consultores.</li> 
                                 <li>Asesoramos a Chilenos radicados en Estados Unidos que desean asesoría legal de diversa índole en Chile.</li>
+                                <li>Asesoramos a Inversionistas y Empresarios de Estados Unidos que deseen asesoría legal de diversa índole en Chile.</li>
                             </ul>
                         </div>
                         <div className="col-12 col-md-6 text-center text-md-end">

@@ -51,7 +51,7 @@ function Footer(){
             </div>
             <div className="footer-bottom">
                 <div className="container">
-                    Copyright © 2025 Cervellino & Asociados Abogados | Powered by Cervellino & Asociados Abogados
+                    Copyright © 2026 Cervellino & Asociados Abogados | Powered by Cervellino & Asociados Abogados
                 </div>
             </div>
         </footer>

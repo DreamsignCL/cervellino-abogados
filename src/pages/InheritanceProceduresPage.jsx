@@ -13,7 +13,7 @@ function InheritanceProceduresPage() {
         <main role="main" className="single-page">
             <div className="container">
                 <section className="header">
-                    <h1>ASESORIA LEGAL EN HERENCIA, TESTAMENTOS Y PARTICIONES</h1>
+                    <h1>ASESORÍA LEGAL EN HERENCIA, TESTAMENTOS Y PARTICIONES</h1>
                 </section>
 
                 <section className="content">
