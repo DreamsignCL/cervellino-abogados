@@ -1,5 +1,7 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import useGtagConversion from './hooks/useGtagConversion';
+import Seo from './seo/Seo';
+import seoPages from './seo/pages';
 
 import HomePage from './pages/HomePage';
 import LegalCounselPage from './pages/LegalCounselPage';
@@ -8,7 +10,7 @@ import LegalSolutionsPage from './pages/LegalSolutionsPage';
 import ContactPage from './pages/ContactPage';
 import InternationalLawPage from './pages/InternationalLawPage';
 import InternationalCommercePage from './pages/InternationalCommercePage';
-import EstatePlanningPage from './pages/EstatePlanningPage';
+import MineAdvisoryPage from './pages/MineAdvisoryPage';
 import RealEstatePage from './pages/RealEstatePage';
 
 import InternationalPrivateLawPage from './pages/InternationalPrivateLawPage';
@@ -29,33 +31,39 @@ import LaborLawConsultancyPage from './pages/LaborLawConsultancyPage';
 
 function RoutesMap() {
   useGtagConversion();
+  const location = useLocation();
+  const page = seoPages[location.pathname] || seoPages['/'];
   
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/quienes-somos" element={<LegalCounselPage />} />
-      <Route path="/areas-de-practica" element={<PracticeAreasPage />} />
-      <Route path="/soluciones-legales" element={<LegalSolutionsPage />} />
-      <Route path="/contacto" element={<ContactPage />} />
-      <Route path="/derecho-internacional-privado-y-litigio-internacional" element={<InternationalLawPage />} />
-      <Route path="/comercio-internacional-internacionalizacion-contratos-internacionales-y-busqueda-de-inversiones" element={<InternationalCommercePage />} />
-      <Route path="/asesoria-corporativa" element={<CorporateAdvisoryPage />} />
-      <Route path="/asesoria-legal-en-derecho-inmobiliario-y-urbanistico" element={<RealEstatePage />} />
-      <Route path="/derecho-internacional-privado-negocios-y-litigio-internacional" element={<InternationalPrivateLawPage />} />
-      <Route path="/tramites-por-herencia-sucesiones-testamentos-y-particiones" element={<InheritanceProceduresPage />} />
-      <Route path="/interdiccion-por-demencias" element={<DementiaInterdictionPage />} />
-      <Route path="/copropiedad-inmobiliaria" element={<RealEstateOwnershipPage />} />
-      <Route path="/compliance-3" element={<CompliancePage />} />
-      <Route path="/asesoria-en-espana" element={<SpainConsultingPage />} />
-      <Route path="/asesoria-en-estados-unidos" element={<UsaConsultingPage />} />
-      <Route path="/reconocimiento-de-ciudadania-italiana" element={<ItalianCitizenshipPage />} />
-      <Route path="/asesoria-en-dubai" element={<DubaiConsultingPage />} />
-      <Route path="/asesoria-legal-a-personas-mayores-y-familias" element={<LegalAdviceElderyPage />} />
-      <Route path="/asesoria-en-italia" element={<AdvisoryInItalyPage />} />
-      <Route path="/compliance-ley-proteccion-de-datos-personales" element={<PersonalDataProtectionPage />} />
-      <Route path="/asesoria-laboral" element={<LaborLawConsultancyPage />} />
-      <Route path="/redirect" element={<RedirectWhatsappPage />} />
-    </Routes>
+    <>
+      <Seo page={page} />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/quienes-somos" element={<LegalCounselPage />} />
+        <Route path="/areas-de-practica" element={<PracticeAreasPage />} />
+        <Route path="/soluciones-legales" element={<LegalSolutionsPage />} />
+        <Route path="/contacto" element={<ContactPage />} />
+        <Route path="/derecho-internacional-privado-y-litigio-internacional" element={<InternationalLawPage />} />
+        <Route path="/comercio-internacional-internacionalizacion-contratos-internacionales-y-busqueda-de-inversiones" element={<InternationalCommercePage />} />
+        <Route path="/asesoria-corporativa" element={<CorporateAdvisoryPage />} />
+        <Route path="/asesoria-legal-en-derecho-inmobiliario-y-urbanistico" element={<RealEstatePage />} />
+        <Route path="/derecho-internacional-privado-negocios-y-litigio-internacional" element={<InternationalPrivateLawPage />} />
+        <Route path="/tramites-por-herencia-sucesiones-testamentos-y-particiones" element={<InheritanceProceduresPage />} />
+        <Route path="/interdiccion-por-demencias" element={<DementiaInterdictionPage />} />
+        <Route path="/copropiedad-inmobiliaria" element={<RealEstateOwnershipPage />} />
+        <Route path="/compliance-3" element={<CompliancePage />} />
+        <Route path="/asesoria-en-espana" element={<SpainConsultingPage />} />
+        <Route path="/asesoria-en-estados-unidos" element={<UsaConsultingPage />} />
+        <Route path="/reconocimiento-de-ciudadania-italiana" element={<ItalianCitizenshipPage />} />
+        <Route path="/asesoria-en-dubai" element={<DubaiConsultingPage />} />
+        <Route path="/asesoria-legal-a-personas-mayores-y-familias" element={<LegalAdviceElderyPage />} />
+        <Route path="/asesoria-en-italia" element={<AdvisoryInItalyPage />} />
+        <Route path="/compliance-ley-proteccion-de-datos-personales" element={<PersonalDataProtectionPage />} />
+        <Route path="/asesoria-laboral" element={<LaborLawConsultancyPage />} />
+        <Route path="/asesoria-derecho-minero" element={<MineAdvisoryPage />} />
+        <Route path="/redirect" element={<RedirectWhatsappPage />} />
+      </Routes>
+    </>
   );
 }
 

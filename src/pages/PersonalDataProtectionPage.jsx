@@ -23,6 +23,8 @@ function PersonalDataProtectionPage() {
                                 Asesoramos a Empresas en Evaluar, Diseñar, Implementar y por ende realicen Cumplimiento en su organización empresarial respecto de la Ley de Protección de Datos Personales. Para ello, pueden requerir de un programa de protección de datos, que contempla implementar una estructura destinada a identificar, analizar y evaluar los riesgos para poder gestionarlos de manera adecuada.
                             </p>
 
+                            <p>Además realizamos procesos de Due Dilligence, Auditorías, Gobernanza, Capacitaciones y Litigación Administrativa como Judicial en la materia.</p>
+
                             <button className="btn btn-outline-primary" type="button" onClick={handleVolver}>Volver</button>
                         </div>
                         <div className="col-12 col-md-6 text-center text-md-end">

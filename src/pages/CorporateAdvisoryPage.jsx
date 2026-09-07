@@ -19,13 +19,14 @@ function CorporateAdvisoryPage() {
                 <section className="content">
                     <div className="row">
                         <div className="col-12 col-md-6">
-                            <p>
-                                Asesoramos en:
-                            </p>
+                            <p>Asesoramos a nuestros clientes en:</p>
 
                             <ul>
-                                <li>Constitución, modificaciones y transformación de sociedades. Adquisiciones, Estructuraciones, Fusiones y Divisiones Sociales.</li>
-                                <li>Directorios y Juntas de Accionistas.</li>
+                                <li>Estructuración, Organización y Constitución, Modificaciones y Transformación de sociedades como además brindar asesoría en la ejecución de sus negocios y relaciones societarias.</li>
+                                <li>Adquisiciones, Estructuraciones, Fusiones y Divisiones Sociales.</li>
+                                <li>Directorios, Juntas de Accionistas y Pacto de Accionistas.</li>
+                                <li>Controversias entre inversionistas, socios y administradores.</li>
+                                <li>Redacción de Contratos Comerciales.</li>
                                 <li>Tributación de empresas y sus socios accionistas.</li>
                                 <li>Asesoría Legal en comercio exterior y bancarios, bienes raíces, aduaneros, marítimos, derecho de autor y marcas, herencias, inversiones nacionales y extranjeras, laboral y negociación colectiva, protección al consumidor, resoluciones alternativas de conflictos, reclamos y recursos tanto administrativos como constitucionales y de responsabilidades.</li>
                                 <li>Constitución, modificación o disolución de Fundaciones y Corporaciones.</li>

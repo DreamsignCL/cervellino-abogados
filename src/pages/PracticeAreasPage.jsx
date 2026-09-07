@@ -2,7 +2,7 @@
 import DerechoInternacional from '../assets/img/derecho-internacional.jpg';
 import ComercioInternacional from '../assets/img/comercio-internacional.jpg';
 import PlanificacionHereditaria from '../assets/img/planificacion-hereditaria.jpg';
-import Inmobiliario from '../assets/img/inmobiliario.jpg';
+import DerechoMinero from '../assets/img/derecho-minero.jpg';
 import CopropiedadInmobiliaria from '../assets/img/copropiedad-inmobiliaria.jpg';
 
 function PracticeAreaPage() {
@@ -34,6 +34,13 @@ function PracticeAreaPage() {
             title: 'ASESORÍA LEGAL EN DERECHO INMOBILIARIO Y URBANÍSTICO',
             detail: 'Tenemos amplia experiencia en todas las áreas del derecho inmobiliario en Chile, tales como:',
             link: '/asesoria-legal-en-derecho-inmobiliario-y-urbanistico'
+        },
+        {
+            id: 5,
+            img: DerechoMinero,
+            title: 'ASESORÍA DERECHO MINERO',
+            detail: 'Asesoramos a nuestros clientes en materias relativas a la constitución, adquisición, regularización, protección y ejercicio de derechos mineros.',
+            link: '/asesoria-derecho-minero'
         },
     ];
 
