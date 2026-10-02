@@ -1,9 +1,6 @@
 
-import DerechoInternacional from '../assets/img/derecho-internacional2.jpg';
 import TramitesHerencia from '../assets/img/tramites-herencia.jpg';
-import DerechoInternacionalPrivado from '../assets/img/derecho-internacional-privado2.jpg';
 import InterdiccionDemencias from '../assets/img/interdiccion-demencias.jpg';
-import Compliance from '../assets/img/compliance.jpg';
 import AsesoriaEspana from '../assets/img/asesoria-espana.jpg';
 import AsesoriaUsa from '../assets/img/asesoria-usa.jpg';
 import CiudadaniaItaliana from '../assets/img/ciudadania-italiana.jpg';
@@ -12,6 +9,7 @@ import LegalAdviceEldery from '../assets/img/legal-advice-eldery.jpg';
 import AsesoriaItalia from '../assets/img/bandera-italiana.jpg';
 import DatosPersonales from '../assets/img/datos-personales.jpg';
 import AsesoriaLaboral from '../assets/img/asesoria-laboral.jpg';
+import AsuntosLegalesChileItalia from '../assets/img/asuntos-legales-chile-italia.png';
 
 function LegalSolutionsPage() {
     const servicesList = [
@@ -94,6 +92,13 @@ function LegalSolutionsPage() {
             title: 'COMPLIANCE POR CUMPLIMIENTO LEY PROTECCIÓN DE DATOS PERSONALES',
             detail: 'Asesoramos a Empresas en Evaluar, Diseñar, Implementar y por ende realicen Cumplimiento en su organización empresarial respecto de la Ley de Protección de datos personales.',
             link: '/compliance-ley-proteccion-de-datos-personales'
+        },
+        {
+            id: 11,
+            img: AsuntosLegalesChileItalia,
+            title: 'ASUNTOS LEGALES ENTRE CHILE E ITALIA',
+            detail: 'Asesoramos a personas y familias en materias de inmigración, inversión, negocios, herencias, sucesiones y testamentos entre Chile e Italia.',
+            link: '/asuntos-legales-entre-chile-italia'
         },
     ];
 

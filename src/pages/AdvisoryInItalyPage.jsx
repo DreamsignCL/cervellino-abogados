@@ -1,6 +1,7 @@
 
 import BanderaItaliana from '../assets/img/bandera-italiana.jpg';
 import { useNavigate } from 'react-router-dom';
+import AccordionItem from '../assets/components/AccordionItem';
 
 function AdvisoryInItalyPage() {
     const navigate = useNavigate();
@@ -40,6 +41,36 @@ function AdvisoryInItalyPage() {
                         <div className="col-12 col-md-6 text-center text-md-end">
                             <img className="img-fluid" src={ BanderaItaliana } alt="" />
                         </div>
+                    </div>
+
+                    <div className="faqs mb-4">
+                        <AccordionItem title="¿Debes realizar tramites legales desde Chile en Italia ?">
+                            Contamos con equipo en Chile e Italia para ayudarte y asesorar.
+                        </AccordionItem>
+
+                        <AccordionItem title="¿Tienes deseos de comprar un inmueble en Italia?">
+                           Encantados te podemos ayudar en buscarla y asesorarte legalmente en su compra.
+                        </AccordionItem>
+
+                        <AccordionItem title="¿Necesitas resolver una Herencia en Italia desde Chile?">
+                            Podemos ayudarte y asesorar desde Chile ! Contamos con una red de Abogados asociados expertos en Italia.
+                        </AccordionItem>
+
+                        <AccordionItem title="¿Necesitas orientacion para estudiar y obtener becas en Italia ?">
+                            Podemos ayudarte a lograr tus sueños.
+                        </AccordionItem>
+
+                        <AccordionItem title="¿Tienes problemas de cobranza con una empresa Italia?">
+                            Te podemos ayudar a resolverlo sin moverte de tu empresa en Chile.
+                        </AccordionItem>
+
+                        <AccordionItem title="¿Deseas crear una filial de tu empresa en Chile o negocio en Italia?">
+                            Encantado te podemos ayudar a buscar nuevo mercado Italiano.
+                        </AccordionItem>
+
+                        <AccordionItem title="¿Necesitas mandato urgente en Chile para tramites legales en Italia?">
+                            Podemos resolverlo a la brevedad.
+                        </AccordionItem>
                     </div>
                 </section>
             </div>

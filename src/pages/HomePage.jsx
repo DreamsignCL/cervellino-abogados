@@ -5,8 +5,14 @@ function HomePage() {
         <h1>Cervellino & Asociados<br/><span>Abogados</span></h1>
       </section>
       <section className="home-services">
-        <a href="/areas-de-practica" title="Conoce nuestras Áreas de Práctica">Áreas de Práctica</a>
-        <a href="/soluciones-legales" title="Conoce nuestras Soluciones Legales">Soluciones Legales</a>
+        <a href="/areas-de-practica" title="Conoce nuestras Áreas de Práctica">
+          Áreas de Práctica <br/>
+          <span>Saber más</span>
+        </a>
+        <a href="/soluciones-legales" title="Conoce nuestras Soluciones Legales">
+          Soluciones Legales <br/>
+          <span>Saber más</span>
+        </a>
       </section>
     </main>
   );

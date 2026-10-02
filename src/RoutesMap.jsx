@@ -28,6 +28,7 @@ import CorporateAdvisoryPage from './pages/CorporateAdvisoryPage';
 import AdvisoryInItalyPage from './pages/AdvisoryInItalyPage';
 import PersonalDataProtectionPage from './pages/PersonalDataProtectionPage';
 import LaborLawConsultancyPage from './pages/LaborLawConsultancyPage';
+import ChileAndItalyBusiness from './pages/ChileAndItalyBusiness';
 
 function RoutesMap() {
   useGtagConversion();
@@ -61,6 +62,7 @@ function RoutesMap() {
         <Route path="/compliance-ley-proteccion-de-datos-personales" element={<PersonalDataProtectionPage />} />
         <Route path="/asesoria-laboral" element={<LaborLawConsultancyPage />} />
         <Route path="/asesoria-derecho-minero" element={<MineAdvisoryPage />} />
+        <Route path="/asuntos-legales-entre-chile-italia" element={<ChileAndItalyBusiness />} />
         <Route path="/redirect" element={<RedirectWhatsappPage />} />
       </Routes>
     </>

@@ -1,6 +1,7 @@
 
 import AsesoriaCorporativa from '../assets/img/tramites-herencia.jpg';
 import { useNavigate } from 'react-router-dom';
+import AccordionItem from '../assets/components/AccordionItem';
 
 function CorporateAdvisoryPage() {
     const navigate = useNavigate();

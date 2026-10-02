@@ -280,7 +280,38 @@ const pages = {
     description: 'Estudio jurídico especializado en asesoría legal entre Chile e Italia. Expertos en ciudadanía e inmigración, compraventa de inmuebles, herencias, divorcios, litigios y asesoría corporativa a través de nuestra red de abogados en Italia.', 
     keywords: 'Abogado en Chile e Italia para trámites legales, Asesoría Trámites Legales en Italia, Ciudadania Italiana', 
     path: '/asesoria-en-italia', 
-    schemaType: 'Service' 
+    schemaType: 'Service',
+    faqs: [
+    {
+      question: '¿Debes realizar trámites legales desde Chile en Italia?',
+      answer: 'Contamos con equipo en Chile e Italia para ayudarte y asesorarte en la gestión de trámites y asuntos legales que requieran actuaciones en Italia.'
+    },
+    {
+      question: '¿Tienes deseos de comprar un inmueble en Italia?',
+      answer: 'Encantados te podemos ayudar a buscarlo y asesorarte legalmente durante el proceso de compra, revisando los antecedentes y coordinando las gestiones necesarias.'
+    },
+    {
+      question: '¿Necesitas resolver una herencia en Italia desde Chile?',
+      answer: 'Podemos ayudarte y asesorarte desde Chile. Contamos con una red de abogados asociados expertos en Italia para coordinar las gestiones necesarias en materia de herencias y sucesiones.'
+    },
+    {
+      question: '¿Necesitas orientación para estudiar y obtener becas en Italia?',
+      answer: 'Podemos ayudarte a conocer las alternativas disponibles y orientarte en los aspectos legales y administrativos relacionados con tu proyecto de estudios en Italia.'
+    },
+    {
+      question: '¿Tienes problemas de cobranza con una empresa italiana?',
+      answer: 'Te podemos ayudar a abordar y coordinar la solución de problemas de cobranza o incumplimientos con empresas italianas, sin necesidad de que te desplaces desde tu empresa en Chile.'
+    },
+    {
+      question: '¿Deseas crear una filial de tu empresa o desarrollar un negocio en Italia?',
+      answer: 'Encantados te podemos ayudar a evaluar las alternativas para ingresar al mercado italiano y coordinar la asesoría legal necesaria para desarrollar tu empresa o negocio en Italia.'
+    },
+    {
+      question: '¿Necesitas un mandato urgente en Chile para trámites legales en Italia?',
+      answer: 'Podemos orientarte en la preparación y otorgamiento del mandato que necesites para determinadas gestiones legales en Italia y coordinar su tramitación a la brevedad.'
+    }
+  ]
+  
   },
 
   '/compliance-ley-proteccion-de-datos-personales': { 
@@ -314,6 +345,44 @@ const pages = {
     path: '/redirect', 
     noindex: true, 
     schemaType: 'WebPage' 
+  },
+
+  '/asuntos-legales-entre-chile-italia': { 
+    title: 'Asuntos legales entre Chile e Italia', 
+    description: 'Asesoría para inmigración, inversiones inmobiliarias, negocios y creación de filiales entre Chile e Italia.', 
+    keywords: 'asesoría legal Italia, inversión Italia, negocios Italia, visa residencia Italia', 
+    path: '/asuntos-legales-entre-chile-italia', 
+    schemaType: 'Service', 
+    faqs: [
+      { 
+        question: '¿Puedo realizar trámites legales en Italia estando en Chile?', 
+        answer: 'Sí. En muchos casos es posible gestionar trámites y asuntos legales en Italia sin que usted tenga que viajar. En Cervellino Asociados Abogados contamos con coordinación y apoyo profesional en Chile e Italia, lo que nos permite orientar a nuestros clientes y gestionar asuntos legales que requieren actuaciones en Italia. Analizamos cada caso, determinamos qué documentación se necesita y coordinamos las actuaciones correspondientes con nuestra red de profesionales asociados en Italia. ¿Necesita realizar un trámite legal en Italia desde Chile? Contáctenos para analizar su caso.' 
+      },
+      { 
+        question: '¿Puedo comprar un inmueble en Italia viviendo en Chile?', 
+        answer: 'Sí. Es posible recibir asesoría legal desde Chile para el proceso de compra de un inmueble en Italia. En Cervellino Asociados podemos asesorarlo en las distintas etapas de una operación inmobiliaria en Italia, desde la revisión inicial de antecedentes y documentación hasta la coordinación con profesionales locales que intervengan en la operación. Nuestro objetivo es que el comprador chileno pueda tomar decisiones informadas y reducir los riesgos jurídicos asociados a una adquisición inmobiliaria en Italia. ¿Está buscando comprar una propiedad en Italia? Podemos acompañarlo durante el proceso.' 
+      },
+      { 
+        question: '¿Puedo resolver una herencia en Italia desde Chile?', 
+        answer: 'Sí. Una herencia ubicada en Italia puede requerir actuaciones y asesoría jurídica en Italia, y podemos coordinar el proceso desde Chile. En Cervellino Asociados asesoramos a clientes que necesitan gestionar herencias, sucesiones y asuntos patrimoniales en Italia, coordinando con nuestra red de abogados asociados especializados en dicho país. Analizamos los antecedentes familiares y patrimoniales, identificamos las actuaciones necesarias y coordinamos con los profesionales que correspondan en Italia. Si recibió una herencia en Italia y vive en Chile, podemos orientarlo sobre cómo comenzar el proceso.' 
+      },
+      { 
+        question: '¿Pueden orientarme para estudiar y acceder a becas en Italia?', 
+        answer: 'Sí. Podemos orientarlo respecto de los aspectos legales y administrativos relacionados con su proyecto de estudios en Italia. Italia ofrece diversas alternativas para estudiantes internacionales, pero cada situación requiere revisar requisitos, documentación y procedimientos específicos. En Cervellino Asociados podemos entregar orientación y coordinar el apoyo necesario para quienes desde Chile desean estudiar, desarrollarse profesionalmente o proyectarse académicamente en Italia. ¿Tiene el proyecto de estudiar en Italia? Conversemos sobre su situación y las alternativas disponibles.' 
+      },
+      { 
+        question: '¿Pueden ayudar a una empresa chilena con una cobranza en Italia?', 
+        answer: 'Sí. Podemos coordinar la asesoría necesaria para abordar una situación de cobranza o incumplimiento contractual relacionada con una empresa o persona en Italia. En Cervellino Asociados podemos analizar los antecedentes contractuales y comerciales desde Chile y coordinar, cuando corresponda, la intervención de abogados asociados en Italia. Esto permite a una empresa chilena contar con asesoría y coordinación jurídica internacional sin necesidad de trasladar inicialmente a sus ejecutivos a Italia. ¿Una empresa italiana mantiene una deuda con su empresa en Chile? Analicemos el caso.' 
+      },
+      { 
+        question: '¿Pueden ayudarme a crear una filial o desarrollar un negocio en Italia?', 
+        answer: 'Sí. Podemos orientar a empresas y empresarios chilenos que buscan desarrollar actividades comerciales o abrir una operación en Italia. Antes de iniciar una expansión internacional es necesario analizar aspectos jurídicos, societarios, contractuales, tributarios y regulatorios, según las características del proyecto. En Cervellino Asociados podemos coordinar desde Chile la asesoría necesaria y vincular al cliente con profesionales especializados en Italia. ¿Está evaluando ingresar al mercado italiano? Conversemos sobre su proyecto.' 
+      },
+      { 
+        question: '¿Necesito otorgar un mandato en Chile para realizar un trámite legal en Italia?', 
+        answer: 'En determinados casos, sí. Un mandato correctamente preparado puede permitir que un tercero actúe en representación del interesado, evitando desplazamientos innecesarios. En Cervellino Asociados podemos orientar sobre la documentación y poderes que sean necesarios para determinadas gestiones vinculadas con Italia, coordinando posteriormente con los profesionales que correspondan. La estructura del mandato dependerá del trámite, de las facultades que deban otorgarse y de los requisitos que correspondan en cada caso. ¿Necesita otorgar un mandato desde Chile para un trámite en Italia? Consúltenos antes de firmarlo.' 
+      },
+    ]
   },
 };
 
